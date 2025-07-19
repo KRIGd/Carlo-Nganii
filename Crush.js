@@ -8,7 +8,7 @@ document.getElementById('yesBtn').onclick = function() {
   `;
   setTimeout(() => {
     container.innerHTML = `
-      <img src="gif/love.gif" alt="Love GIF" class="cute-img">
+      <img src="./love.gif" alt="Love GIF" class="cute-img">
       <h2>Sabi na eh💖, tara sleep call tayo?</h2>
       <button id="goBtn" class="btn yes" style="margin-top:20px;">G! tara</button>
     `;
